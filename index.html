@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emergency Medical Info Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Emergency Medical Info Form</h1>
+    <form class="infoForm">
+      <input type="text" id="name" placeholder="Full Name">
+      <input type="tel" id="contact" placeholder="Emergency Contact Number">
+      <input type="date" id="dob">
+      <input type="text" id="bloodGroup" placeholder="Blood Group">
+      <input type="text" id="allergies" placeholder="Allergies">
+      <input type="text" id="address" placeholder="Home Address">
+      <button type="button" onclick="generateCard()">Generate Card</button>
+    </form>
+
+    <div class="card" id="cardDetails" style="display: none;">
+      <h2>Emergency Medical Card</h2>
+      <p><strong>Name: </strong><span id="c-name"></span></p>
+      <p><strong>Contact: </strong><span id="c-contact"></span></p>
+      <p><strong>DOB: </strong><span id="c-dob"></span></p>
+      <p><strong>Blood Group: </strong><span id="c-bloodGroup"></span></p>
+      <p><strong>Allergies: </strong><span id="c-allergies"></span></p>
+      <p><strong>Address: </strong><span id="c-address"></span></p>
+      <button onclick="printCard()">🖨️ Print Card</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
