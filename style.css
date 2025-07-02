@@ -137,7 +137,6 @@ button:hover{
   #name, #contact, #dob, #bloodGroup, #allergies, #address{
     width: 95%;
     max-width: 580px;
-    box-sizing: border-box;
   }
 }
 
@@ -148,7 +147,6 @@ button:hover{
   #name, #contact, #dob, #bloodGroup, #allergies, #address{
     width: 95%;
     max-width: 580px;
-    box-sizing: border-box;
   }  
 }
 
@@ -159,7 +157,6 @@ button:hover{
   #name, #contact, #dob, #bloodGroup, #allergies, #address{
     width: 95%;
     max-width: 580px;
-    box-sizing: border-box;
   }  
 }
 
@@ -170,7 +167,6 @@ button:hover{
   #name, #contact, #dob, #bloodGroup, #allergies, #address{
     width: 95%;
     max-width: 580px;
-    box-sizing: border-box;
   }  
 }
 
@@ -181,6 +177,5 @@ button:hover{
   #name, #contact, #dob, #bloodGroup, #allergies, #address{
     width: 95%;
     max-width: 580px;
-    box-sizing: border-box;
   }  
 }
