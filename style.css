@@ -129,3 +129,58 @@ button:hover{
   margin: 0;
 }
 }
+
+@media(max-width:480px){
+  .container{
+    margin: auto;
+  }
+  #name, #contact, #dob, #bloodGroup, #allergies, #address{
+    width: 95%;
+    max-width: 580px;
+    box-sizing: border-box;
+  }
+}
+
+@media(max-width:576px){
+  .container{
+    margin: auto;
+  }
+  #name, #contact, #dob, #bloodGroup, #allergies, #address{
+    width: 95%;
+    max-width: 580px;
+    box-sizing: border-box;
+  }  
+}
+
+@media(max-width:768px){
+  .container{
+    margin: auto;
+  }
+  #name, #contact, #dob, #bloodGroup, #allergies, #address{
+    width: 95%;
+    max-width: 580px;
+    box-sizing: border-box;
+  }  
+}
+
+@media(max-width:992px){
+  .container{
+    margin: auto;
+  }
+  #name, #contact, #dob, #bloodGroup, #allergies, #address{
+    width: 95%;
+    max-width: 580px;
+    box-sizing: border-box;
+  }  
+}
+
+@media(max-width:1200px){
+  .container{
+    margin: auto;
+  }
+  #name, #contact, #dob, #bloodGroup, #allergies, #address{
+    width: 95%;
+    max-width: 580px;
+    box-sizing: border-box;
+  }  
+}
