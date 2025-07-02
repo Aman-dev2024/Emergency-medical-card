@@ -21,7 +21,7 @@ Emergency Medical Card is a simple, responsive webpage built using HTML, CSS and
 - Media Print
 
 🚀 How to Use
-1. Clone the respository
+1. Clone the respository https://aman-dev2024.github.io/Emergency-medical-card/
 2. Open inde.html in your browser
 3. Fill out the form
 4. Click the generate button your emergency card will apper below the form
